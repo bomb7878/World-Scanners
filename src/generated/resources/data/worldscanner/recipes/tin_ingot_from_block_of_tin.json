@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "worldscanner:block_of_tin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "worldscanner:tin_ingot"
+  }
+}

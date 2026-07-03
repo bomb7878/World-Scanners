@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DOD",
+    "FLF",
+    "DOD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "worldscanner:alloy_furnace"
+  },
+  "show_notification": true
+}

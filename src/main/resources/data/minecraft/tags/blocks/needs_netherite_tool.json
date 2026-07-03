@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "worldscanner:block_of_dark_steel",
+    "worldscanner:block_of_ender_steel",
+    "worldscanner:advanced_alloy_furnace"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DBD",
+    "NFN",
+    "DBD"
+  ],
+  "key": {
+    "D": {
+      "item": "worldscanner:dark_diamond"
+    },
+    "B": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "N": {
+      "item": "minecraft:ancient_debris"
+    },
+    "F": {
+      "item": "worldscanner:alloy_furnace"
+    }
+  },
+  "result": {
+    "item": "worldscanner:advanced_alloy_furnace",
+    "count": 1
+  }
+}

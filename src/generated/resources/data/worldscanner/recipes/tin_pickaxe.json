@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "worldscanner:tin_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "KKK",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "worldscanner:tin_pickaxe"
+  },
+  "show_notification": true
+}

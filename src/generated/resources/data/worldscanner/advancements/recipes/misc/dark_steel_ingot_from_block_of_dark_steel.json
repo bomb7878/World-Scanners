@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_of_dark_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:block_of_dark_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "worldscanner:dark_steel_ingot_from_block_of_dark_steel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_block_of_dark_steel",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "worldscanner:dark_steel_ingot_from_block_of_dark_steel"
+    ]
+  }
+}

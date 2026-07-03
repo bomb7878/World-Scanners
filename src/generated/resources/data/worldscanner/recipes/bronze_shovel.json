@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "worldscanner:bronze_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " K ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "worldscanner:bronze_shovel"
+  },
+  "show_notification": true
+}

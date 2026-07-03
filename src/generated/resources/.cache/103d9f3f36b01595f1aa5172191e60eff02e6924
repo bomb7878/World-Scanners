@@ -1,0 +1,5 @@
+// 1.19.4	2025-07-01T02:55:47.4706842	Registries
+9cd3850332c8a408a6ce5d90146eb36ce1c72706 data/worldscanner/worldgen/configured_feature/dark_diamond_ore.json
+24f0b2f79e54cc8ced707efb3269e691225a2b77 data/worldscanner/worldgen/configured_feature/tin_ore.json
+292d2a4739e02d61bd8c21a6c42e2a6d58469b08 data/worldscanner/worldgen/placed_feature/dark_diamond_ore_placed.json
+e02a434f646241885a3d76ed3a99a89c5598d6d5 data/worldscanner/worldgen/placed_feature/tin_ore_placed.json

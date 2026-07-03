@@ -1,0 +1,27 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 100,
+      "FluidName": "minecraft:lava"
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "worldscanner:tin_ingot"
+      }
+    }
+  ],
+  "processingTime": 140,
+  "result": {
+    "count": 4,
+    "item": "worldscanner:bronze_ingot"
+  }
+}

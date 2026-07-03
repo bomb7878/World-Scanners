@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:alloy_furnace"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.alloy_furnace.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.alloy_furnace.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:root",
+  "criteria": {
+    "big": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:alloy_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "big"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:scanners_screen"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.scanners_screen.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.scanners_screen.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:make_steel_ingot",
+  "criteria": {
+    "get_scanners_screen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:scanners_screen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_scanners_screen"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

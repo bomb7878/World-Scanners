@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "worldscanner:dark_diamond_ore",
+    "worldscanner:block_of_dark_diamond",
+    "worldscanner:alloy_furnace"
+  ]
+}

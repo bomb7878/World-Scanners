@@ -1,0 +1,26 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 500,
+      "FluidName": "worldscanner:molten_souls_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "worldscanner:dark_steel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    }
+  ],
+  "processingTime": 100,
+  "result": {
+    "count": 3,
+    "item": "worldscanner:ender_steel_nugget"
+  }
+}

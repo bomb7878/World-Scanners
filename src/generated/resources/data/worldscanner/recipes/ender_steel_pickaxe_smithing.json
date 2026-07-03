@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "worldscanner:ender_steel_ingot"
+  },
+  "base": {
+    "item": "worldscanner:dark_steel_pickaxe"
+  },
+  "result": {
+    "item": "worldscanner:ender_steel_pickaxe"
+  }
+}

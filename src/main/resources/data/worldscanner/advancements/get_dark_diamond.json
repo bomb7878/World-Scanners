@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:dark_diamond"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.get_dark_diamond.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.get_dark_diamond.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:root",
+  "criteria": {
+    "get_dark_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_dark_diamond"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

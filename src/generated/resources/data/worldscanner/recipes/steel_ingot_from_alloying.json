@@ -1,0 +1,24 @@
+{
+  "type": "worldscanner:alloying",
+  "fluid": {
+    "Amount": 250,
+    "FluidName": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:coal"
+      }
+    }
+  ],
+  "processingTime": 300,
+  "result": {
+    "item": "worldscanner:steel_ingot"
+  }
+}

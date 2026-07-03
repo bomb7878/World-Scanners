@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:bronze_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.bronze_equipment.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.bronze_equipment.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:bronze_age",
+  "criteria": {
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sword",
+      "get_pickaxe",
+      "get_axe",
+      "get_shovel",
+      "get_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

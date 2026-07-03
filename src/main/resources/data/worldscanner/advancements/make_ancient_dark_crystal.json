@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:ancient_dark_crystal"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_ancient_dark_crystal.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_ancient_dark_crystal.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:make_netherite_bloom",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ancient_dark_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

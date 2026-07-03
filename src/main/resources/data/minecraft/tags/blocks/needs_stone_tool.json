@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "worldscanner:tin_ore",
+    "worldscanner:block_of_raw_tin",
+    "worldscanner:block_of_tin"
+  ]
+}

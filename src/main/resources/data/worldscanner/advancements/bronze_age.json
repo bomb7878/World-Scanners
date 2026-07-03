@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:bronze_ingot"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.bronze_age.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.bronze_age.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:alloy_furnace",
+  "criteria": {
+    "get_bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:bronze_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_bronze"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

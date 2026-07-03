@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:dark_steel_hoe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.dark_steel_hoe.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.dark_steel_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "worldscanner:dark_steel_equipment",
+  "criteria": {
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_steel_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

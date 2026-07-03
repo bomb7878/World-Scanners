@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.worldscanner.block_of_dark_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:block_of_dark_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item.minecraft.ender_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "worldscanner:ender_steel_ingot_from_advanced_alloying_with_lava"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_block.worldscanner.block_of_dark_steel",
+      "has_item.minecraft.ender_eye",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "worldscanner:ender_steel_ingot_from_advanced_alloying_with_lava"
+    ]
+  }
+}

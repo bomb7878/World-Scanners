@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "worldscanner:block/tin_ore"
+    }
+  }
+}

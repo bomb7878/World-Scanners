@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "has_ender_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_ender_steel_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:ender_steel_hoe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.ender_steel_hoe.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.ender_steel_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "worldscanner:ender_steel_equipment",
+  "criteria": {
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

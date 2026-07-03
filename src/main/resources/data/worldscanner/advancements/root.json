@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:mod_icon"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.root.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "big": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "big"
+    ]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 250,
+      "FluidName": "worldscanner:molten_souls_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:coal"
+      }
+    }
+  ],
+  "processingTime": 80,
+  "result": {
+    "item": "worldscanner:steel_ingot"
+  }
+}

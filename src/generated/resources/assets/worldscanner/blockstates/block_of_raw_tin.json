@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "worldscanner:block/block_of_raw_tin"
+    }
+  }
+}

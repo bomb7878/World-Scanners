@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 900,
+  "experience": 6.3,
+  "group": "tin_block",
+  "ingredient": {
+    "item": "worldscanner:block_of_raw_tin"
+  },
+  "result": "worldscanner:block_of_tin"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 1000,
+      "FluidName": "minecraft:lava"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:coal_block"
+      }
+    }
+  ],
+  "processingTime": 2000,
+  "result": {
+    "item": "worldscanner:block_of_steel"
+  }
+}

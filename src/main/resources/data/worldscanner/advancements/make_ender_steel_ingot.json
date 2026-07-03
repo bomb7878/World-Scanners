@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:ender_steel_ingot"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_ender_steel_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_ender_steel_ingot.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:make_dark_steel_ingot",
+  "criteria": {
+    "has_ender_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ender_steel_ingot"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

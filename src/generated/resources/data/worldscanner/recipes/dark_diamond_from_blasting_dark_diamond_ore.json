@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "dark_diamond",
+  "ingredient": {
+    "item": "worldscanner:dark_diamond_ore"
+  },
+  "result": "worldscanner:dark_diamond"
+}

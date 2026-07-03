@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WDL",
+    "WSL",
+    "OOO"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "D": {
+      "item": "worldscanner:block_of_dark_diamond"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "S": {
+      "item": "worldscanner:scanners_screen"
+    }
+  },
+  "result": {
+    "item": "worldscanner:liquid_chunk_scanner",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 1500,
+      "FluidName": "minecraft:lava"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "worldscanner:block_of_dark_steel"
+      }
+    },
+    {
+      "count": 9,
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    }
+  ],
+  "processingTime": 1200,
+  "result": {
+    "count": 3,
+    "item": "worldscanner:ender_steel_ingot"
+  }
+}

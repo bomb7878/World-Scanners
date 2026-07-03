@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DND",
+    "OLO",
+    "DND"
+  ],
+  "key": {
+    "D": {
+      "item": "worldscanner:dark_diamond"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "worldscanner:netherite_bloom"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "worldscanner:tin_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " K ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "worldscanner:tin_shovel"
+  },
+  "show_notification": true
+}

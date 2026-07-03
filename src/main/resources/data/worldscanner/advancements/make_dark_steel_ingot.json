@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:dark_steel_ingot"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_dark_steel_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_dark_steel_ingot.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:alloy_furnace",
+  "criteria": {
+    "get_dark_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_dark_steel_ingot"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

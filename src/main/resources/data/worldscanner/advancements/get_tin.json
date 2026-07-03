@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:tin_ingot"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.get_tin.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.get_tin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:root",
+  "criteria": {
+    "get_tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_tin"
+    ]
+  ],
+  "rewards": {
+    "experience": 2
+  }
+}

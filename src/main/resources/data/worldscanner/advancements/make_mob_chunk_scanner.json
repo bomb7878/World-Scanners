@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:mob_chunk_scanner"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_mob_chunk_scanner.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_mob_chunk_scanner.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:make_scanners_screen",
+  "criteria": {
+    "get_scanner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:mob_chunk_scanner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_scanner"
+    ]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

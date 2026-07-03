@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "worldscanner:dark_steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "KK ",
+    "KS ",
+    " S "
+  ],
+  "result": {
+    "item": "worldscanner:dark_steel_axe"
+  },
+  "show_notification": true
+}

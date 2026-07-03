@@ -1,0 +1,27 @@
+{
+  "type": "worldscanner:advanced_alloying",
+  "fluids": [
+    {
+      "Amount": 350,
+      "FluidName": "worldscanner:molten_souls_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "worldscanner:steel_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "worldscanner:ancient_dark_crystal"
+      }
+    }
+  ],
+  "processingTime": 140,
+  "result": {
+    "count": 8,
+    "item": "worldscanner:dark_steel_ingot"
+  }
+}

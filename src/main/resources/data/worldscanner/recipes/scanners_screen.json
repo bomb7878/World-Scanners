@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    " L ",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "worldscanner:steel_ingot"
+    },
+    "L": {
+      "item": "minecraft:lime_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "worldscanner:scanners_screen",
+    "count": 1
+  }
+}

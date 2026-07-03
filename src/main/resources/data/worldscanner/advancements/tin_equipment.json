@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:tin_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.tin_equipment.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.tin_equipment.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:get_tin",
+  "criteria": {
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:tin_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sword",
+      "get_pickaxe",
+      "get_axe",
+      "get_shovel",
+      "get_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

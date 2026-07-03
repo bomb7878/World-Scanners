@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.minecraft.copper_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_block.worldscanner.block_of_tin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:block_of_tin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "worldscanner:block_of_bronze_from_advanced_alloying_with_molten_souls_fluid"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_block.minecraft.copper_block",
+      "has_block.worldscanner.block_of_tin",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "worldscanner:block_of_bronze_from_advanced_alloying_with_molten_souls_fluid"
+    ]
+  }
+}

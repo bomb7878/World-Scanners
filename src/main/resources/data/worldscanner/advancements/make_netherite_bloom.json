@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:netherite_bloom"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_netherite_bloom.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_netherite_bloom.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:get_dark_diamond",
+  "criteria": {
+    "has_netherite_bloom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:netherite_bloom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_bloom"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:ender_steel_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.ender_steel_equipment.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.ender_steel_equipment.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:make_ender_steel_ingot",
+  "criteria": {
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:ender_steel_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sword",
+      "get_pickaxe",
+      "get_axe",
+      "get_shovel"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  }
+}

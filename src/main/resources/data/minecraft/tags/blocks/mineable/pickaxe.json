@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldscanner:dark_diamond_ore",
+    "worldscanner:block_of_dark_diamond",
+    "worldscanner:alloy_furnace",
+    "worldscanner:tin_ore",
+    "worldscanner:block_of_raw_tin",
+    "worldscanner:block_of_tin",
+    "worldscanner:block_of_bronze",
+    "worldscanner:block_of_steel",
+    "worldscanner:block_of_dark_steel",
+    "worldscanner:block_of_ender_steel"
+  ]
+}

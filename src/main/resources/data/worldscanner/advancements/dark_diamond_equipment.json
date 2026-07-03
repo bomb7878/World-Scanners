@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:dark_diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.dark_diamond_equipment.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.dark_diamond_equipment.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:get_dark_diamond",
+  "criteria": {
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:dark_diamond_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sword",
+      "get_pickaxe",
+      "get_axe",
+      "get_shovel",
+      "get_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

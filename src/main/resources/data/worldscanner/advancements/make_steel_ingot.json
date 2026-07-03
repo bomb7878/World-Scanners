@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "worldscanner:steel_ingot"
+    },
+    "title": {
+      "translate": "advancement.worldscanner.make_steel_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.worldscanner.make_steel_ingot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldscanner:alloy_furnace",
+  "criteria": {
+    "get_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldscanner:steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_steel_ingot"
+    ]
+  ],
+  "rewards": {
+    "experience": 3
+  }
+}
